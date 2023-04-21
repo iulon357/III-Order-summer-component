@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  height: 100vh;
+  background-image: url(/img/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+}
+
+.card {
+  width: 450px;
+  height: 697px;
+  background-color: #ffffff;
+  border: 1px solid green;
+  border-radius: 20px;
+}
+
+h1 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  color: #1f2e55;
+  margin: 45px 48px 17px 48px;
+  text-align: center;
+}
+
+.about {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #717fa6;
+  text-align: center;
+  margin: 0 48px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 354px;
+  height: 98px;
+  background: #f7f9ff;
+  border-radius: 11px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.music {
+  margin-left: 24px;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 92px;
+}
+
+.price h2 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1f2e55;
+}
+
+.price p {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #717fa6;
+}
+
+.change {
+  border: 0;
+  background-color: #ffffff;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #382ae1;
+  margin-right: 24px;
+}
+
+/* .proceed {
+  width: 354px;
+  height: 50px;
+  background: #382ae1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+  margin: 32px 48px 0px 48px;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #ffffff;
+} */
+
+.cencel {
+  width: 354px;
+  height: 50px;
+  border: 0;
+  background-color: #ffffff;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 20px;
+  color: #717fa6;
+  margin: 32px 176px 0px 176px;
+  width: 96px;
+  height: 20px;
+  border: none;
+}
