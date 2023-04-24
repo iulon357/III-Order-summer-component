@@ -100,34 +100,43 @@ h1 {
   margin-right: 24px;
 }
 
-/* .proceed {
-  width: 354px;
-  height: 50px;
-  background: #382ae1;
-  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
-  border-radius: 11px;
-  margin: 32px 48px 0px 48px;
-  font-family: "Red Hat Display";
+.proceed {
+  font-family: "Red hat display";
   font-style: normal;
   font-weight: 900;
   font-size: 15px;
   line-height: 20px;
   color: #ffffff;
-} */
+}
 
-.cencel {
+.proceed-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 354px;
   height: 50px;
-  border: 0;
-  background-color: #ffffff;
-  font-family: "Red Hat Display";
+  background-color: #382ae1;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  border-radius: 11px;
+  margin-left: 48px;
+  margin-top: 32px;
+}
+
+.cencel {
+  margin-left: 176px;
+  margin-top: 32px;
+}
+
+.cencel-text {
+  font-family: "Red hat display";
   font-style: normal;
   font-weight: 900;
   font-size: 15px;
   line-height: 20px;
   color: #717fa6;
-  margin: 32px 176px 0px 176px;
-  width: 96px;
-  height: 20px;
-  border: none;
+  
+}
+
+.cencel-link {
+  text-decoration: none;
 }
